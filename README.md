@@ -1,6 +1,6 @@
-# SHOP
+# PWAMP
 
-### Setup
+PWA + AMP => Seamless experience for user
 
 ##### Prerequisites
 
@@ -11,19 +11,15 @@ Install [polymer-cli](https://github.com/Polymer/polymer-cli):
 
 
 ##### Setup
-    # Using CLI
-    mkdir shop
-    cd shop
-    polymer init shop
-    
-    # Or cloning direct from GitHub
-    git clone https://github.com/Polymer/shop.git
-    cd shop
     bower install
 
 ### Start the development server
 
     polymer serve
+    
+Default: http://localhost:8080/
+
+AMP: http://localhost:8080/amp/index.html
 
 ### Run web-component-tester tests
 
@@ -42,3 +38,6 @@ This command serves the minified version of the app in an unbundled state, as it
 This command serves the minified version of the app generated using fragment bundling:
 
     polymer serve build/bundled
+
+### Update gh-pages
+    ./scripts/build-page.sh 
