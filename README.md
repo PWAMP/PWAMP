@@ -4,11 +4,13 @@ PWA + AMP => Seamless experience for user
 
 ##### Goods
 
-- AMP look like the main app
-- Items are clickable, will be directed to real app with selected item
-- Cart are clickable, will be directed to real app with cart page
-- Burger Menu are clickable, will be directed to real app with opened menu
-- Service Worker of real app will be registered when enter the AMP, no need to wait when enter the real app
+1. AMP look like the main app
+2. Items are clickable, will be directed to real app with selected item
+3. Cart are clickable, will be directed to real app with cart page
+4. Burger Menu are clickable, will be directed to real app with opened menu
+5. Service Worker of real app will be registered when enter the AMP
+
+* Thank to (5) we have 2, 3, 4 load almost instantly 
 
 ##### Bads
 
