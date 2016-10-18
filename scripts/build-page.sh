@@ -17,7 +17,7 @@ rm -rf $TARGET/*
 
 polymer build
 
-cp -r src-amp build/bundled/amp
+cp -r amp build/bundled/amp
 
 cp -r build/bundled/* $TARGET/
 
