@@ -2,6 +2,19 @@
 
 PWA + AMP => Seamless experience for user
 
+##### Goods
+
+- AMP look like the main app
+- Items are clickable, will be directed to real app with selected item
+- Cart are clickable, will be directed to real app with cart page
+- Burger Menu are clickable, will be directed to real app with opened menu
+- Service Worker of real app will be registered when enter the AMP, no need to wait when enter the real app
+
+##### Bads
+
+- There is no animation when click on burger menu on AMP
+- The cart on AMP won't relfect the number of item in cart
+
 ##### Prerequisites
 
 Install [polymer-cli](https://github.com/Polymer/polymer-cli):
