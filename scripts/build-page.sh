@@ -3,7 +3,7 @@ TARGET=../PWAMP-gh-pages
 
 # clone or update
 if [ ! -d "$TARGET" ]; then
-  git clone https://github.com/phonglk/PWAMP.git -b gh-pages $TARGET
+  git clone https://github.com/PWAMP/PWAMP.github.io.git $TARGET
   cd $TARGET
 else
   cd $TARGET
