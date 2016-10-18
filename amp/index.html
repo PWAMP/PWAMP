@@ -185,6 +185,10 @@
         <div class="shop-button">Shop Now</div>
       </a>
     </div>
-    <amp-install-serviceworker src="/service-worker.js" layout="nodisplay"></amp-install-serviceworker>
+    <amp-install-serviceworker
+      src="/service-worker.js" layout="nodisplay"
+      data-iframe-src="/src/lazy-resources.html"
+    >
+    </amp-install-serviceworker>
   </body>
 </html>
