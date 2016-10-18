@@ -232,6 +232,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         route="{{route}}"
         pattern="/:page"
         data="{{routeData}}"
+        query-params={{queryParams}}
         tail="{{subroute}}"></app-route>
 
     <iron-media-query query="max-width: 767px" query-matches="{{smallScreen}}"></iron-media-query>
@@ -354,7 +355,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       },
 
       observers: [
-        '_routePageChanged(routeData.page)'
+        '_routePageChanged(routeData.page, queryParams)',
       ],
 
       listeners: {
@@ -386,7 +387,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         // with `behavior: 'silent'` to disable header scroll effects during the scroll.
         Polymer.AppLayout.scroll({ top: 0, behavior: 'silent' });
         // Close the drawer - in case the *route* change came from a link in the drawer.
-        this.drawerOpened = false;
+        this.drawerOpened = this.queryParams && this.queryParams.menu === 'true';
       },
 
       _pageChanged: function(page, oldPage) {
