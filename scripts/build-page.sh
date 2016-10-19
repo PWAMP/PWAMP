@@ -14,6 +14,7 @@ fi
 cd -
 
 rm -rf $TARGET/*
+rm -rf build/bundled/
 
 polymer build
 
