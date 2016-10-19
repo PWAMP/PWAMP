@@ -14,11 +14,8 @@ fi
 cd -
 
 rm -rf $TARGET/*
-rm -rf build/bundled/
 
-polymer build
-
-cp -r amp build/bundled/amp
+./scripts/compile.sh
 
 cp -r build/bundled/* $TARGET/
 cp -r googlef958ac3cb70046fa.html $TARGET/
