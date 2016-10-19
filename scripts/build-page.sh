@@ -20,6 +20,7 @@ polymer build
 cp -r amp build/bundled/amp
 
 cp -r build/bundled/* $TARGET/
+cp -r googlef958ac3cb70046fa.html $TARGET/
 
 cd $TARGET
 git add -A
