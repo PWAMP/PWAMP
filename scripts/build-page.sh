@@ -13,10 +13,10 @@ fi
 # go back
 cd -
 
-rm -rf $TARGET/*
-
 ./scripts/compile.sh
+./scripts/fix-sw-path.sh
 
+rm -rf $TARGET/*
 cp -r build/bundled/* $TARGET/
 cp -r googlef958ac3cb70046fa.html $TARGET/
 
