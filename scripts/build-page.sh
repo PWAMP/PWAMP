@@ -17,7 +17,7 @@ cd -
 ./scripts/fix-sw-path.sh
 
 rm -rf $TARGET/*
-cp -r build/bundled/* $TARGET/
+cp -r build/default/* $TARGET/
 cp -r googlef958ac3cb70046fa.html $TARGET/
 
 cd $TARGET
