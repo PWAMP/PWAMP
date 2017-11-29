@@ -58,7 +58,7 @@ This command serves the minified version of the app generated using fragment bun
     ./scripts/build-page.sh 
     
 ### Demo
-[](https://i.imgur.com/7wwNO9a.gifv)
+![](https://i.imgur.com/7wwNO9a.gifv)
 
 Explain what happend in video
 
