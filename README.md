@@ -56,3 +56,15 @@ This command serves the minified version of the app generated using fragment bun
 
 ### Update gh-pages
     ./scripts/build-page.sh 
+    
+### Demo
+[](https://i.imgur.com/7wwNO9a.gifv)
+
+Explain what happend in video
+
+- Search for Shop
+- Shop is in search result with AMP Enabled icon 
+- When clicked, the AMP is appeared instantly, thanks to google cache!
+- While user is browsing information, the PWA is cached in background (via service worker)
+- Hence, when user click an item, it redirect user to real app in seconds!
+- Finally, user have full experience in our app with minimal loading time (at least, user don't feel so)
